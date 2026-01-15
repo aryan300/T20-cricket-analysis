@@ -98,10 +98,24 @@ The Power BI dashboard enables:
 - Visual and data-backed **Best Playing XI selection*
 
 ---
+## 📊 Exploratory Data Analysis (EDA) Visualizations
+
+To improve the analytical depth of this project, exploratory data visualizations have been added in the `t20_data_processing` file using the Python library **Matplotlib**. These visualizations help in quickly understanding player performance and deriving insights without relying solely on BI tools.
+
+### 🔹 Top 10 Batsmen by Strike Rate
+- Displays the top-performing batsmen based on strike rate.
+- Helps identify aggressive batters suitable for the T20 format.
+- Useful for team selection and batting strategy analysis.
+
+### 🔹 Top Bowlers by Economy Rate
+- Highlights bowlers with the lowest economy rates.
+- Helps identify consistent and reliable bowlers.
+- Useful for bowling strategy and role-based analysis.
+---
 
 ## 🛠️ Tech Stack
 
-- **Python** – Pandas, BeautifulSoup  
+- **Python** – Pandas, Matplotlib  
 - **Jupyter Notebook**  
 - **Power BI Desktop**  
 - **Power Query**  
